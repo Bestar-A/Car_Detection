@@ -1,0 +1,37 @@
+.logo-container {
+  position: relative;
+}
+
+.logo-container::after {
+  content: "Carve Away";
+  position: absolute;
+  left: 2%;
+  background-color: bisque;
+  top: 15%;
+  border-radius: 50%;
+  width: 5%;
+  height: 10%;
+  text-align: center;
+  padding: 5px;
+}
+
+.logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-title {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.logo-description {
+  font-size: 3.5rem;
+  font-weight: 600;
+}
+
+a{
+  color: black;
+}
